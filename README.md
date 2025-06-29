@@ -22,7 +22,7 @@ The original image is a scan of the entire retina but since Glaucoma can be dete
 2. Identify the brightest region in the image, which tends to be the optic disc
 3. Create a window around the brightest region and save it as a seperate image
 
- ![alt text](https://github.com/ashishmathew98/Glaucoma-CNN/blob/main/data_prep.png)
+ ![alt text](./assets/data_prep.png)
 
  ## Modelling
  To detect the presence of glaucoma we use the following models:
