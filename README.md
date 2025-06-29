@@ -7,7 +7,7 @@ As of 2024, it is estimated that over 76 million people globally are living with
 
 A key diagnostic indicator of glaucomatous optic neuropathy is an increased cup-to-disc ratio. This refers to the enlargement of the optic cup relative to the optic disc as retinal ganglion cells and their axons are lost. While a normal C/D ratio varies among individuals, a progressive increase in this ratio — particularly asymmetrically between the eyes — raises concern for glaucoma and warrants further evaluation.
 
-![alt text](https://github.com/ashishmathew98/Glaucoma-CNN/blob/main/cup-to-disc.jpg)
+![alt text](./assets/cup-to-disc.jpg)
 
 ## Dataset
 The data used to train the convolutional neural network is an aggregation of several public datasets bringing the total number retinal scans to ~1,800 images
