@@ -17,7 +17,7 @@ The data used to train the convolutional neural network is an aggregation of sev
 - ACRIMA
 
 ## Data Prep
-The original image is a scan of the entire retina but since Glaucoma can be detected using cup-to-disc ratio, it sufficient to keep only the optic disc region. This was done using Open-CV in python and implementing a function with the following steps:
+The original image is a scan of the entire retina but since Glaucoma can be detected using cup-to-disc ratio, it is sufficient to keep only the optic disc region. This was done using Open-CV in python and implementing a function with the following steps:
 1. Remove small bright spots in the image using Gaussian Blurring. These bright spots could be a result of machine/data issues and/or the presence of other conditions such as diabetic retinopathy
 2. Identify the brightest region in the image, which tends to be the optic disc
 3. Create a window around the brightest region and save it as a seperate image
